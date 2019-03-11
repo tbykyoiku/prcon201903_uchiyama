@@ -1,0 +1,649 @@
+﻿@charset "shift_jis";
+a{
+color:#555555;
+}
+a:hover{
+text-decoration:none;
+}
+html{
+scrollbar-track-color:#eeeeee;
+scrollbar-face-color:#ffffff;
+scrollbar-shadow-color:#eeeeee;
+scrollbar-darkshadow-color:#dddddd;
+scrollbar-highlight-color:#eeeeee;
+scrollbar-3dlight-color:#dddddd;
+scrollbar-arrow-color:#000000;
+}
+body{
+font-size:9pt;
+color:#555555;
+background-color:#ffffff;
+text-align:center;
+margin:0px;
+-webkit-text-size-adjust:none;
+}
+table,th,td{
+margin:auto;
+font-size:9pt;
+color:#555555;
+}
+p{
+text-align:left;
+line-height:2em;
+padding-left:20px;
+padding-right:20px;
+margin-top:0.5em;
+margin-bottom:0.5em;
+}
+img{
+border-style:none;
+}
+#body{
+margin:auto;
+width:850px;
+background-color:#eeeeee;
+background-image:url(image/bg.gif);
+background-position:top right;
+background-repeat:repeat-y;
+overflow:hidden;
+}
+#header{
+width:100%;
+height:150px;
+text-align:left;
+background-image:url(image/header.png);
+background-repeat:no-repeat;
+background-position:top left;
+overflow:hidden;
+}
+#header h1{
+margin-top:60px;
+padding-left:30px;
+font-size:14pt;
+font-family:"Times New Roman";
+}
+#header h1 a{
+text-decoration:none;
+}
+#menu{
+width:100%;
+height:30px;
+background-image:url(image/menu_bg.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+}
+#menu ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+#menu li{
+float:left;
+width:120px;
+height:30px;
+line-height:30px;
+overflow:hidden;
+position:relative;
+z-index:1;
+}
+#menu .on{
+overflow:visible;
+}
+#menu .sbm{
+left:-1px;
+position:absolute;
+}
+.sbm li{
+border-left:solid 1px #cccccc;
+border-bottom:solid 1px #cccccc;
+}
+#menu a{
+/* トップメニューの文字を左寄せにする場合 */
+/* text-align:left; */
+/* padding-left:10px; */
+text-decoration:none;
+white-space:nowrap;
+border-right:solid 1px #cccccc;
+display:block;
+}
+#menu a:hover{
+background-image:url(image/menu.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+}
+#menu .sbm a{
+background-color:#ffffff;
+}
+#menu .sbm a:hover{
+background-image:url();
+background-color:#eeeeee;
+}
+#main{
+margin:auto;
+width:830px;
+overflow:hidden;
+}
+#main ul,#main ol{
+margin-left:0px;
+padding-left:35px;
+padding-right:20px;
+}
+#main li{
+line-height:2em;
+text-align:left;
+}
+.box1,.box2,.box3,.box4{
+width:830px;
+margin:auto;
+margin-top:5px;
+margin-bottom:5px;
+background-color:#ffffff;
+overflow:hidden;
+text-align: left;
+}
+.box2{
+background-image:url(image/box2.gif);
+background-position:top right;
+background-repeat:repeat-y;
+}
+.box3{
+background-image:url(image/box3.gif);
+background-position:top right;
+background-repeat:repeat-y;
+}
+.box4{
+background-image:url(image/box4.gif);
+background-position:top right;
+background-repeat:repeat-y;
+font-size:8pt;
+}
+.box1 h2,.box1 h3,.box2 h4,.box2 h5,.box3 h4,.box3 h5,.box4 h4,.box4 h5{
+margin:auto;
+margin-top:0px;
+margin-bottom:0px;
+font-size:9pt;
+height:30px;
+line-height:30px;
+background-position:top left;
+background-repeat:no-repeat;
+overflow:hidden;
+}
+.box1 h3,.box2 h5,.box3 h5,.box4 h5{
+text-indent:10px;
+text-align:left;
+}
+.box1 h2{
+width:830px;
+background-image:url(image/h2.jpg);
+}
+.box1 h3{
+width:830px;
+background-image:url(image/h3.jpg);
+}
+.box2 h4{
+width:410px;
+background-image:url(image/h4.jpg);
+}
+.box2 h5{
+width:410px;
+background-image:url(image/h5.jpg);
+}
+.box3 h4{
+width:270px;
+background-image:url(image/h4a.jpg);
+}
+.box3 h5{
+width:270px;
+background-image:url(image/h5a.jpg);
+}
+.box4 h4{
+font-size:8pt;
+width:200px;
+background-image:url(image/h4b.jpg);
+}
+.box4 h5{
+font-size:8pt;
+width:200px;
+background-image:url(image/h5b.jpg);
+}
+.box4 table,.box4 th,.box4 td{
+font-size:8pt;
+}
+.left1,.right1{
+width:410px;
+overflow:hidden;
+}
+.left2,.center1,.right2{
+width:270px;
+overflow:hidden;
+}
+.left3,.center2,.center3,.right3{
+width:200px;
+overflow:hidden;
+}
+.left1,.left2,.left3,.center1,.center2,.center3{
+float:left;
+}
+.right1,.right2,.right3{
+float:right;
+}
+.center1,.center2,.center3{
+margin-left:10px;
+}
+#menu2{
+width:100%;
+height:20px;
+background-image:url(image/menu_bg2.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+}
+#menu2 ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+#menu2 li{
+float:left;
+width:120px;
+height:20px;
+line-height:20px;
+overflow:hidden;
+position:relative;
+}
+#menu2 .on{
+overflow:visible;
+}
+#menu2 .sbm2{
+left:-1px;
+position:absolute;
+}
+.sbm2 li{
+border-left:solid 1px #cccccc;
+border-bottom:solid 1px #cccccc;
+}
+#menu2 a{
+/* 下メニューの文字を左寄せにする場合 */
+/* text-align:left; */
+/* padding-left:10px; */
+text-decoration:none;
+white-space:nowrap;
+border-right:solid 1px #cccccc;
+display:block;
+}
+#menu2 a:hover{
+background-image:url(image/menu2.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+}
+#menu2 .sbm2 a{
+background-color:#ffffff;
+}
+#menu2 .sbm2 a:hover{
+background-image:url();
+background-color:#eeeeee;
+}
+#footer{
+clear:both;
+width:100%;
+height:100px;
+background-image:url(image/footer.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+overflow:hidden;
+}
+.sbox{
+height:150px;
+overflow:auto;
+border:solid 1px #dddddd;
+-webkit-overflow-scrolling:touch;
+}
+.cbox{
+border:solid 1px #dddddd;
+background-color:#eeeeee;
+}
+.right{
+text-align:right;
+}
+.center{
+text-align:center;
+}
+.f_left{
+float:left;
+}
+.f_right{
+float:right;
+}
+.clear{
+clear:both;
+}
+.up{
+clear:both;
+text-align:right;
+padding-right:10px;
+}
+#copy{
+font-size:8pt;
+color:#aaaaaa;
+width:100%;
+height:20px;
+background-color:#ffffff;
+overflow:hidden;
+}
+#copy p{
+float:right;
+width:50px;
+height:20px;
+margin:0px;
+padding:0px;
+text-align:right;
+overflow:hidden;
+}
+#copy a{
+color:#aaaaaa;
+text-decoration:none;
+background-image:url(image/copy.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+padding-left:80px;
+display:block;
+}
+.darkblue{
+color:#00008b;
+}
+.blue{
+color:#0000ff;
+}
+.cyan{
+color:#00ffff;
+}
+.skyblue{
+color:#87ceeb;
+}
+.lime{
+color:#00ff00;
+}
+.greenyellow{
+color:#adff2f;
+}
+.green{
+color:#008000;
+}
+.darkolivegreen{
+color:#556b2f;
+}
+.olive{
+color:#808000;
+}
+.darkkhaki{
+color:#bdb76b;
+}
+.red{
+color:#ff0000;
+}
+.tomato{
+color:#ff6347;
+}
+.brown{
+color:#a52a2a;
+}
+.maroon{
+color:#800000;
+}
+.saddlebrown{
+color:#8b4513;
+}
+.yellow{
+color:#ffff00;
+}
+.gold{
+color:#ffd700;
+}
+.orange{
+color:#ffa500;
+}
+.darkgoldenrod{
+color:#b8860b;
+}
+.magenta{
+color:#ff00ff;
+}
+.purple{
+color:#800080;
+}
+.blueviolet{
+color:#8a2be2;
+}
+.violet{
+color:#ee82ee;
+}
+.thistle{
+color:#d8bfd8;
+}
+.pink{
+color:#ffc0cb;
+}
+.mistyrose{
+color:#ffe4e1;
+}
+.tan{
+color:#d2b48c;
+}
+.wheat{
+color:#f5deb3;
+}
+.silver{
+color:#c0c0c0;
+}
+.gray{
+color:#808080;
+}
+ .black{
+color:#000000;
+}
+.white{
+color:#ffffff;
+}
+
+textarea{
+  width:99%;
+  height:300px;
+  resize:vertical;
+}
+
+button{
+   height:25px;
+   
+}
+
+.star-wars-intro {
+  background: url("image/img_0_m.jpg") center center;
+  width: 100%;
+  height: 100%;
+  font-family: "Droid Sans", arial, verdana, sans-serif;
+  font-weight: 700;
+  color: #EBD71C;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.star-wars-intro p.intro-text {
+  position: relative;
+  max-width: 16em;
+  font-size: 200%;
+  font-weight: 400;
+  margin: 20% auto;
+  color: #4ee;
+  opacity: 0;
+  z-index: 1;
+  text-align: center;
+  -webkit-animation: intro 2s ease-out;
+  -moz-animation: intro 2s ease-out;
+  -ms-animation: intro 2s ease-out;
+  -o-animation: intro 2s ease-out;
+  animation: intro 2s ease-out;
+}
+
+.star-wars-intro .main-content{
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 3;
+  width: 98%;
+  height: 50em;
+  bottom: 0;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: justify;
+  overflow: hidden;
+  transform-origin: 50% 100%;
+  transform: perspective(350px) rotateX(25deg);
+}
+
+.star-wars-intro .main-content:after {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  bottom: 60%;
+  background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.star-wars-intro .space-button {
+  color: #EBD71C;
+  border: 12px solid #EBD71C;
+  padding: 20px;
+  background: transparent;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.star-wars-intro .space-button:hover {
+  background-color: #D2BE03;
+  border-color: #D2BE03;
+  color: black;
+}
+
+.star-wars-intro .space-button:active,
+.star-wars-intro .space-button:focus {
+  background-color: #B8A40A;
+  border-color: #B8A40A;
+  color: black;
+}
+
+.star-wars-intro .title-content {
+  position: absolute;
+  top: 100%;
+  animation: scroll 120s linear 4s forwards;
+}
+
+.star-wars-intro .title-content > .content-header {
+  text-align: center;
+}
+
+/* Main Image Styles */
+
+.star-wars-intro .main-logo {
+  position: absolute;
+  width: 2.6em;
+  margin: auto;
+  left: 50%;
+  top: 20vh;
+  font-size: 10em;
+  text-align: center;
+  margin-left: -1.3em;
+  line-height: 0.8em;
+  letter-spacing: -0.05em;
+  color: #000;
+  text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
+  opacity: 0;
+  z-index: 1;
+  -webkit-animation: logo 5s ease-out 2.5s;
+  -moz-animation: logo 5s ease-out 2.5s;
+  -ms-animation: logo 5s ease-out 2.5s;
+  -o-animation: logo 5s ease-out 2.5s;
+  animation: logo 5s ease-out 2.5s;
+}
+
+.star-wars-intro .main-logo > img {
+  max-width: 100%;
+}
+
+@-webkit-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-moz-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-ms-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-o-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+@-webkit-keyframes logo {
+  0% { -webkit-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -webkit-transform: scale(0.1); opacity: 0; }
+}
+
+@-moz-keyframes logo {
+  0% { -moz-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -moz-transform: scale(0.1); opacity: 0; }
+}
+
+@-ms-keyframes logo {
+  0% { -ms-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -ms-transform: scale(0.1); opacity: 0; }
+}
+
+@-o-keyframes logo {
+  0% { -o-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -o-transform: scale(0.1); opacity: 0; }
+}
+
+@keyframes logo {
+  0% { transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { transform: scale(0.1); opacity: 0; }
+}
+
+@keyframes scroll {
+  0% { top: 100%; }
+  100% { top: -170%; }
+}
+
+@media screen and (max-width: 720px) {
+  .star-wars-intro .main-content {
+    font-size: 25px;
+  }
+  .star-wars-intro .title-content {
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 4s forwards;
+  }
+}

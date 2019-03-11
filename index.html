@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+	<meta name="viewport" content="width=850" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+	<meta http-equiv="content-style-type" content="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="memo.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>メモサイト</title>
+</head>
+
+<body>
+
+	<!-- body▼ -->
+	<div id="body">
+		<!-- header▼ -->
+		<div id="header"></div>
+		<!-- header▲ -->
+		<!-- メニュー▼ -->
+<!--		<div id="menu">-->
+<!--		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li onmouseover="this.className='on'" onmouseout="this.className='off'" class="off">
+				<a>コンテンツ増やす？</a>
+				<ul class="sbm">
+					<li><a href="index.html">エンドレスメモ</a></li>
+				</ul>
+			</li>
+		</ul>
+-->
+		<!-- メニュー▲ -->
+<!--	</div>-->
+ 
+		<!-- main▼ -->
+		<div id="main">
+			<!-- メインコンテンツ▼ -->
+			<div class="box1">
+				<h2>メモれるボックス</h2>
+				<p>
+					保存時 ファイル名：<input id="name" placeholder="mytext"></input>
+					<button onclick="TextSave()">保存</button>
+					<a id='DL_link'></a>
+				
+				</p>
+				<textarea id="text" onkeyup="ShowLength('inputlength',value);" ></textarea>
+				<p>
+					<label id="inputlength">0文字</label>
+					<button onclick="reset('inputlength');">クリア</button>
+					<button onclick="toMieben('inputlength');">三重弁に変換</button>
+					<button onclick="toGalmoji('inputlength');">ギャル文字に変換</button>
+					<button onclick="toMieAndGal('inputlength');">三重弁+ギャル文字に変換</button>
+					<button onclick="button_click_monitor('inputlength');">映画っぽい何か</button>
+				</p>
+			</div>
+		</div>
+		<!-- main▲ -->
+		<!-- footer▼ -->
+		<div id="footer">
+			<br /><br /><br />
+			Copyright (C) <a href="index.html">メモ</a> All Rights Reserved.
+		</div>
+		<!-- footer▲ -->
+
+	</div>
+	<!-- body▲ -->
+</body>
+</html>
